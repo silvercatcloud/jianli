@@ -1,0 +1,111 @@
+/* 基本重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#00416a,#e4e5e6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* 头部 */
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #444;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  header p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  /* 容器 */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* 简历信息部分 */
+  .resume-preview {
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: rgba(195, 217, 244, 0.43);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  } 
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #00d6f2;
+  }
+  
+  .card ul {
+    list-style-type: none;
+  }
+  
+  .card ul li {
+    margin: 10px 0;
+  }
+  
+  /* 下载按钮 */
+  .resume-download .btn {
+    display: inline-block;
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    margin: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-download .btn:hover {
+    background-color: #00bcd4;
+  }
+  
+  /* 页脚 */
+  footer {
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top: 1px solid #444;
+  }
+  
+  footer a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
